@@ -18,6 +18,14 @@
         
         
         <h1> Essa é para ser a branch de Feature </h1>
+        <p> Bootstrap instalado
+            Proxima necessidade é a introdução das databases
+            Necessário saber relacionar duas tabelas > Checar discord para isso.
+            De resto toda teoria já está organizada no Notion e no Figma.
+            Quarta de Manha: Introducao das tabelas e databases, relacionar elas e montar as views de introdução de tabelas.
+            Gerar as views para a exposição das tabelas.
+            Gerar a maneira de editar as tabelas.
+        </p>
 
 
         </body>
