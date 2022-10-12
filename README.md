@@ -7,7 +7,7 @@
 
 ## Responsáveis pelo projeto
 - [André Marques](https://github.com/andrecostamarques) - RA: 22001640
-- [Angelo Pereira](https://github.com/Tcheludo) - RA: 21008767
+- [Angelo Pereira](https://github.com/AngeloPJunior) - RA: 21008767
 - [Eduardo Perucello](https://github.com/EduardoPerucello) - RA: 22009978
 - [Vinicius Alvarez](https://github.com/VinizAA) - RA: 22006181
     
