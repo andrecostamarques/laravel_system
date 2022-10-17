@@ -11,5 +11,57 @@
 - [Eduardo Perucello](https://github.com/EduardoPerucello) - RA: 22009978
 - [Vinicius Alvarez](https://github.com/VinizAA) - RA: 22006181
     
-A equipe tem o intuito de criar um sistema com banco de dados relacional que salvará uma relação Aluno - Matéria - Professor - Filme, constando com as funções de adicionar filmes, pesquisar, procurar e etc.
-Para o back-end utilizaremos o sistema [MySQL](https://www.mysql.com/) e o front-end será construído usufruindo da ferramenta [Bootstrap](https://getbootstrap.com/).
+A equipe tem o intuito de criar um sistema com banco de dados relacional que salvará uma relação Aluno - Matéria - Professor - Filme, constando o CRUD (Create, Read, Update e Delete) dessas informações. Deste modo, a plataforma deve exibir listas dos alunos, matérias e professores, bem como uma opção de editá-las.
+Para a realização deste trabalho, utilizaremos o framework [Laravel](https://laravel.com), tendo como back-end o sistema [MySQL](https://www.mysql.com/) e front-end a ferramenta [Bootstrap](https://getbootstrap.com/).
+
+
+## Passo a passo
+Clone Repositório criado a partir do template, entre na pasta e execute os comandos abaixo:
+
+Crie o Arquivo .env
+```sh
+cp .env.example .env
+```
+
+Atualize as variáveis de ambiente do arquivo .env
+```dosini
+APP_NAME=Laravel
+APP_URL=http://localhost:8080
+
+DB_PASSWORD=root
+```
+
+Suba os containers do projeto
+```sh
+docker compose up -d
+```
+
+Acessar o container
+```sh
+docker compose exec app bash
+```
+
+Instalar as dependências do projeto
+```sh
+composer install
+```
+
+Gerar a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
+Acesse o projeto
+[http://localhost:8080](http://localhost:8080)
+
+Acesse o phpmyadmin
+[http://localhost:8081](http://localhost:8081)
+
+API de categorias e filmes:
+https://www.learn-laravel.cf/
+
+Rotas:
+- (get) /categories
+- (get) /category/{id}
+- (get) /movies
+- (get) /movie/{id}
