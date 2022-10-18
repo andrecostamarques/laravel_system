@@ -56,12 +56,3 @@ Acesse o projeto
 
 Acesse o phpmyadmin
 [http://localhost:8081](http://localhost:8081)
-
-API de categorias e filmes:
-https://www.learn-laravel.cf/
-
-Rotas:
-- (get) /categories
-- (get) /category/{id}
-- (get) /movies
-- (get) /movie/{id}
