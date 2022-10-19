@@ -16,7 +16,6 @@ return new class extends Migration
         Schema::create('materias', function (Blueprint $table) {
             $table->id();
             $table->string('nome_materias');
-            $table->string('nome_professors');
             $table->timestamps();
         });
     }
