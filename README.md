@@ -1,4 +1,4 @@
-#<b> Projeto não finalizado, migrado para repositório novo </b>
+# <b> Projeto não finalizado, migrado para repositório novo </b>
 
 ## <b>PROJETO 01 - ALUNO, MATÉRIA, PROFESSOR E SEUS FILMES!<b>
 
